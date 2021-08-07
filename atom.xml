@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://Erikten.github.io/"/>
-  <updated>2021-07-20T11:51:56.737Z</updated>
+  <updated>2021-08-07T10:47:41.110Z</updated>
   <id>https://Erikten.github.io/</id>
   
   <author>
@@ -17,11 +17,44 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>恶意流量分析之metasploit</title>
+    <link href="https://Erikten.github.io/posts/548680ac.html"/>
+    <id>https://Erikten.github.io/posts/548680ac.html</id>
+    <published>2021-08-07T10:43:13.915Z</published>
+    <updated>2021-08-07T10:47:41.110Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;环境准备&quot;&gt;&lt;a href=&quot;#环境准备&quot; class=&quot;headerlink&quot; title=&quot;环境准备&quot;&gt;&lt;/a&gt;环境准备&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Kali (攻击机)&lt;/li&gt;
+&lt;li&gt;Windows7 (靶机)&lt;/li&gt;
+&lt;li&gt;Wireshark
+        
+      
+    
+    </summary>
+    
+      <category term="流量分析篇" scheme="https://Erikten.github.io/categories/%E6%B5%81%E9%87%8F%E5%88%86%E6%9E%90%E7%AF%87/"/>
+    
+    
+      <category term="渗透测试" scheme="https://Erikten.github.io/tags/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/"/>
+    
+      <category term="metasploit" scheme="https://Erikten.github.io/tags/metasploit/"/>
+    
+      <category term="流量分析" scheme="https://Erikten.github.io/tags/%E6%B5%81%E9%87%8F%E5%88%86%E6%9E%90/"/>
+    
+  </entry>
+  
+  <entry>
     <title>PHP代码审计基础：XXE漏洞</title>
     <link href="https://Erikten.github.io/posts/dcd7a0ad.html"/>
     <id>https://Erikten.github.io/posts/dcd7a0ad.html</id>
     <published>2021-07-20T11:51:56.584Z</published>
-    <updated>2021-07-20T11:51:56.737Z</updated>
+    <updated>2021-07-20T11:52:08.432Z</updated>
     
     <summary type="html">
     
@@ -70,9 +103,9 @@
     
       <category term="渗透测试" scheme="https://Erikten.github.io/tags/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="sqlmap" scheme="https://Erikten.github.io/tags/sqlmap/"/>
-    
       <category term="流量分析" scheme="https://Erikten.github.io/tags/%E6%B5%81%E9%87%8F%E5%88%86%E6%9E%90/"/>
+    
+      <category term="sqlmap" scheme="https://Erikten.github.io/tags/sqlmap/"/>
     
   </entry>
   
@@ -547,38 +580,6 @@
     <id>https://Erikten.github.io/posts/ccae1bbc.html</id>
     <published>2021-04-06T11:16:23.214Z</published>
     <updated>2021-02-19T15:52:05.750Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;任务环境&quot;&gt;&lt;a href=&quot;#任务环境&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="渗透测试篇" scheme="https://Erikten.github.io/categories/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E7%AF%87/"/>
-    
-    
-      <category term="渗透测试" scheme="https://Erikten.github.io/tags/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/"/>
-    
-      <category term="内网渗透" scheme="https://Erikten.github.io/tags/%E5%86%85%E7%BD%91%E6%B8%97%E9%80%8F/"/>
-    
-      <category term="提权" scheme="https://Erikten.github.io/tags/%E6%8F%90%E6%9D%83/"/>
-    
-      <category term="靶机渗透" scheme="https://Erikten.github.io/tags/%E9%9D%B6%E6%9C%BA%E6%B8%97%E9%80%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>靶机渗透——Halice</title>
-    <link href="https://Erikten.github.io/posts/9bdda3fd.html"/>
-    <id>https://Erikten.github.io/posts/9bdda3fd.html</id>
-    <published>2021-04-06T11:16:23.213Z</published>
-    <updated>2021-02-19T15:52:05.749Z</updated>
     
     <summary type="html">
     
