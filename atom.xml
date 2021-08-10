@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://Erikten.github.io/"/>
-  <updated>2021-08-07T10:47:41.110Z</updated>
+  <updated>2021-08-10T13:26:10.355Z</updated>
   <id>https://Erikten.github.io/</id>
   
   <author>
@@ -15,6 +15,72 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>记一次PowerShell配合Metersploit的艰难提权</title>
+    <link href="https://Erikten.github.io/posts/b2192f11.html"/>
+    <id>https://Erikten.github.io/posts/b2192f11.html</id>
+    <published>2021-08-10T11:29:59.521Z</published>
+    <updated>2021-08-10T13:26:10.355Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;环境准备&quot;&gt;&lt;a href=&quot;#环境准备&quot; class=&quot;headerlink&quot; title=&quot;环境准备&quot;&gt;&lt;/a&gt;环境准备&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;kali（模拟公网攻击机）&lt;/li&gt;
+&lt;li&gt;Windows Server
+        
+      
+    
+    </summary>
+    
+      <category term="渗透测试篇" scheme="https://Erikten.github.io/categories/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E7%AF%87/"/>
+    
+    
+      <category term="渗透测试" scheme="https://Erikten.github.io/tags/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/"/>
+    
+      <category term="内网渗透" scheme="https://Erikten.github.io/tags/%E5%86%85%E7%BD%91%E6%B8%97%E9%80%8F/"/>
+    
+      <category term="Powershell" scheme="https://Erikten.github.io/tags/Powershell/"/>
+    
+      <category term="Metersploit" scheme="https://Erikten.github.io/tags/Metersploit/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Metersploit常用命令总结</title>
+    <link href="https://Erikten.github.io/posts/495d3c3a.html"/>
+    <id>https://Erikten.github.io/posts/495d3c3a.html</id>
+    <published>2021-08-09T10:02:57.445Z</published>
+    <updated>2021-08-10T13:26:10.354Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;核心命令&quot;&gt;&lt;a href=&quot;#核心命令&quot; class=&quot;headerlink&quot; title=&quot;核心命令&quot;&gt;&lt;/a&gt;核心命令&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;background、bg                       
+        
+      
+    
+    </summary>
+    
+      <category term="渗透测试篇" scheme="https://Erikten.github.io/categories/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E7%AF%87/"/>
+    
+    
+      <category term="渗透测试" scheme="https://Erikten.github.io/tags/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/"/>
+    
+      <category term="域渗透" scheme="https://Erikten.github.io/tags/%E5%9F%9F%E6%B8%97%E9%80%8F/"/>
+    
+      <category term="内网渗透" scheme="https://Erikten.github.io/tags/%E5%86%85%E7%BD%91%E6%B8%97%E9%80%8F/"/>
+    
+      <category term="环境搭建" scheme="https://Erikten.github.io/tags/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+    
+  </entry>
   
   <entry>
     <title>恶意流量分析之metasploit</title>
@@ -163,9 +229,9 @@
     
       <category term="代码审计" scheme="https://Erikten.github.io/tags/%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1/"/>
     
-      <category term="ThinkPHP" scheme="https://Erikten.github.io/tags/ThinkPHP/"/>
-    
       <category term="环境搭建" scheme="https://Erikten.github.io/tags/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+    
+      <category term="ThinkPHP" scheme="https://Erikten.github.io/tags/ThinkPHP/"/>
     
   </entry>
   
@@ -515,70 +581,6 @@
     <link href="https://Erikten.github.io/posts/f882b92c.html"/>
     <id>https://Erikten.github.io/posts/f882b92c.html</id>
     <published>2021-04-06T11:16:23.216Z</published>
-    <updated>2021-02-19T15:52:05.750Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;任务环境&quot;&gt;&lt;a href=&quot;#任务环境&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="渗透测试篇" scheme="https://Erikten.github.io/categories/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E7%AF%87/"/>
-    
-    
-      <category term="渗透测试" scheme="https://Erikten.github.io/tags/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/"/>
-    
-      <category term="内网渗透" scheme="https://Erikten.github.io/tags/%E5%86%85%E7%BD%91%E6%B8%97%E9%80%8F/"/>
-    
-      <category term="提权" scheme="https://Erikten.github.io/tags/%E6%8F%90%E6%9D%83/"/>
-    
-      <category term="靶机渗透" scheme="https://Erikten.github.io/tags/%E9%9D%B6%E6%9C%BA%E6%B8%97%E9%80%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>靶机渗透——Mr.Robot</title>
-    <link href="https://Erikten.github.io/posts/df372537.html"/>
-    <id>https://Erikten.github.io/posts/df372537.html</id>
-    <published>2021-04-06T11:16:23.215Z</published>
-    <updated>2021-02-19T15:52:05.751Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;任务环境&quot;&gt;&lt;a href=&quot;#任务环境&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="渗透测试篇" scheme="https://Erikten.github.io/categories/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E7%AF%87/"/>
-    
-    
-      <category term="渗透测试" scheme="https://Erikten.github.io/tags/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/"/>
-    
-      <category term="内网渗透" scheme="https://Erikten.github.io/tags/%E5%86%85%E7%BD%91%E6%B8%97%E9%80%8F/"/>
-    
-      <category term="提权" scheme="https://Erikten.github.io/tags/%E6%8F%90%E6%9D%83/"/>
-    
-      <category term="靶机渗透" scheme="https://Erikten.github.io/tags/%E9%9D%B6%E6%9C%BA%E6%B8%97%E9%80%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>靶机渗透——Hides</title>
-    <link href="https://Erikten.github.io/posts/ccae1bbc.html"/>
-    <id>https://Erikten.github.io/posts/ccae1bbc.html</id>
-    <published>2021-04-06T11:16:23.214Z</published>
     <updated>2021-02-19T15:52:05.750Z</updated>
     
     <summary type="html">
